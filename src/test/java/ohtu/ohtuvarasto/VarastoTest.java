@@ -122,6 +122,7 @@ public class VarastoTest {
     }
     @Test
     public void testaaToString2() {
+        //Kommentti tehtävä 11 varten
         Varasto varasto5 = new Varasto(10, 10);
         assertEquals("saldo = 10.0, vielä tilaa 0.0", varasto5.toString());
     }
