@@ -121,8 +121,9 @@ public class VarastoTest {
         assertEquals("saldo = 0.0, vielä tilaa 10.0", varasto.toString());
     }
     @Test
-    public void EiToimitestaaToString() {
-        assertEquals("saldo != 0.0, vielä tilaa 10.0", varasto.toString());
+    public void testaaToString2() {
+        Varasto varasto5 = new Varasto(10, 10);
+        assertEquals("saldo = 10.0, vielä tilaa 0.0", varasto5.toString());
     }
 
 }
