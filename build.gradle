@@ -14,15 +14,6 @@ apply plugin: 'application'
 
 apply plugin: "jacoco"
 
-apply plugin: 'checkstyle'
-
-compileJava.options.fork = true
-compileJava.options.forkOptions.executable = "C:/Program Files/Java/jdk-11.0.1/bin/javac.exe"
-
-checkstyle {
-	toolVersion = '6.10.1'
-	checkstyleTest.enabled = false
-}
 
 // In this section you declare where to find the dependencies of your project
 repositories {
