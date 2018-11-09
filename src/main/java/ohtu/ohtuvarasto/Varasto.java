@@ -22,7 +22,8 @@ public class Varasto {
         } else {// virheellinen, nollataan
             this.tilavuus = 0.0;  // => käyttökelvoton varasto
         }
-
+        
+        asetaAlkuSaldo(alkuSaldo);
     }
 
     private void asetaAlkuSaldo(double alkuSaldo) {
